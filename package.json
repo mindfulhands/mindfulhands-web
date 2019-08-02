@@ -6,16 +6,6 @@
 		"url": "https://github.com/ooade/NextSimpleStarter"
 	},
 	"license": "MIT",
-	"dependencies": {
-		"isomorphic-fetch": "^2.2.1",
-		"next": "^9.0.0",
-		"next-offline": "^4.0.0",
-		"next-redux-wrapper": "^3.0.0-alpha.2",
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"react-redux": "^7.1.0",
-		"redux": "^3.7.2"
-	},
 	"scripts": {
 		"dev": "next",
 		"start": "next start",
@@ -26,7 +16,22 @@
 		"start:static": "serve",
 		"now-build": "next build"
 	},
+	"dependencies": {
+		"isomorphic-fetch": "^2.2.1",
+		"next": "^9.0.0",
+		"next-offline": "^4.0.0",
+		"next-redux-wrapper": "^3.0.0-alpha.2",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-redux": "^7.1.0",
+		"redux": "^3.7.2",
+		"styled-components": "^4.3.2"
+	},
 	"devDependencies": {
+		"babel-eslint": "^10.0.2",
+		"babel-plugin-import": "^1.12.0",
+		"babel-plugin-styled-components": "^1.10.6",
+		"eslint": "^6.1.0",
 		"serve": "^11.1.0"
 	}
 }

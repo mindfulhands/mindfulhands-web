@@ -2,13 +2,15 @@ import 'isomorphic-fetch'
 import React from 'react'
 import { connect } from 'react-redux'
 
-import Fork from '../components/Fork'
+import Header from '../components/Header'
+import SubHeader from '../components/SubHeader'
 import Todo from '../components/Todo'
 
 // Port in to using useState hooks, if you need state
 const Index = ({ stars }) => (
 	<div>
-		<Fork stars={stars} />
+		<Header text="MindfulHands" />
+		<SubHeader text="MindfulHands is coming soon. In the mean time enjoy this simple todo app :)" />
 		<div>
 			<Todo />
 		</div>

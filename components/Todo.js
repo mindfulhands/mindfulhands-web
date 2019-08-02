@@ -66,7 +66,7 @@ const Todo = ({ todos, addTodo, removeTodo }) => {
 						.mdl-card {
 							margin: auto;
 							transition: all .3s;
-							transform: translateY(100px);
+							transform: translateY(50px);
 						}
 					`}</style>
 		</div>
